@@ -2,9 +2,12 @@
 
 A simple weather application built with HTML, CSS, and JavaScript that fetches live weather data using the OpenWeatherMap API
 
+
+
 **Features**
 
 Search weather by city name
+
 
 
 **Displays:**
@@ -22,6 +25,7 @@ Search weather by city name
 Clean & responsive design with background image
 
 Handles errors (invalid city, missing API key, etc.)
+
 
 
 **🛠️ Technologies Used**
