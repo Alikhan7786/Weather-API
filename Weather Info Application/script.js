@@ -1,6 +1,6 @@
 // IMPORTANT: Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key. 
         // You can get a free API key from: https://openweathermap.org/api 
-        const API_KEY = 'b9c64f1de7f8282e174091b7807dbde0'; 
+        const API_KEY = 'YOUR API_KEY'; 
         const weatherInfoDiv = document.getElementById('weatherInfo'); 
         const cityInput = document.getElementById('cityInput'); 
         const getWeatherBtn = document.getElementById('getWeatherBtn'); 
@@ -66,4 +66,5 @@
         // Initial message on load 
         window.onload = () => { 
              weatherInfoDiv.innerHTML = '<p>Enter a city name and click "Get Weather" to see the current conditions.</p>'; 
+
         };
